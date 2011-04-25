@@ -10,6 +10,7 @@
       margin-top: 1.0em;
       background-color: #222;
       font-family: Helvetica, Arial, FreeSans, san-serif;
+      font-size: small;
       color: #bbb;
     }
     #container {
@@ -22,11 +23,12 @@
     h2 { font-size: 1.5em; color: #fff; }
     h3 { text-align: center; color: #fff; }
     a { color: #fff; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic; }
     .download { float: right; }
     pre { background: #000; color: #fff; padding: 15px;}
     hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
     .footer { text-align:center; padding-top:30px; font-style: italic; }
+    img#screenshot { float: right; margin: 30px 0 30px 30px; width: 296px; height: 556px; }
   </style>
 </head>
 
@@ -37,15 +39,17 @@
 
     <div class="download">
       <a href="http://github.com/abhibeckert/Open-Torch/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
+        <img border="0" width="90" height="89" src="http://github.com/images/modules/download/zip.png"></a>
       <a href="http://github.com/abhibeckert/Open-Torch/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+        <img border="0" width="90" height="89" src="http://github.com/images/modules/download/tar.png"></a>
     </div>
-
+		
     <h1><a href="http://github.com/abhibeckert/Open-Torch">Open Torch</a>
       <span class="small">by <a href="http://github.com/abhibeckert">abhibeckert</a></span></h1>
 		
-		<img src="screenshot.png" width="296" height="556" align="right" />
+		<div style="clear: both;"></div>
+		
+		<img src="screenshot.png" id="screenshot" />
 		
     <div class="description">
       Torch app for iPhone 4
