@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38C1A5E01365EB40003851F5 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 38C1A5DF1365EB40003851F5 /* License.txt */; };
 		38C205FD1365DBEA005C787C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C205FC1365DBEA005C787C /* UIKit.framework */; };
 		38C205FF1365DBEA005C787C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C205FE1365DBEA005C787C /* Foundation.framework */; };
 		38C206011365DBEA005C787C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C206001365DBEA005C787C /* CoreGraphics.framework */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38C1A5DF1365EB40003851F5 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 		38C205F81365DBEA005C787C /* Open Torch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Torch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C205FC1365DBEA005C787C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		38C205FE1365DBEA005C787C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,7 +44,6 @@
 		38C2062B1365E07D005C787C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 		38C2062D1365E091005C787C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		38C2062F1365E096005C787C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		38C206311365E1B0005C787C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		38C206331365E1BA005C787C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -64,8 +65,6 @@
 		38C205ED1365DBEA005C787C = {
 			isa = PBXGroup;
 			children = (
-				38C206331365E1BA005C787C /* AVFoundation.framework */,
-				38C206311365E1B0005C787C /* AVFoundation.framework */,
 				38C206021365DBEA005C787C /* Open Torch */,
 				38C205FB1365DBEA005C787C /* Frameworks */,
 				38C205F91365DBEA005C787C /* Products */,
@@ -83,6 +82,7 @@
 		38C205FB1365DBEA005C787C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				38C206331365E1BA005C787C /* AVFoundation.framework */,
 				38C205FC1365DBEA005C787C /* UIKit.framework */,
 				38C205FE1365DBEA005C787C /* Foundation.framework */,
 				38C206001365DBEA005C787C /* CoreGraphics.framework */,
@@ -101,6 +101,7 @@
 				38C206121365DBEA005C787C /* Open_TorchViewController.m */,
 				38C206141365DBEA005C787C /* Open_TorchViewController.xib */,
 				38C206031365DBEA005C787C /* Supporting Files */,
+				38C1A5DF1365EB40003851F5 /* License.txt */,
 			);
 			path = "Open Torch";
 			sourceTree = "<group>";
@@ -184,6 +185,7 @@
 				38C2062C1365E07D005C787C /* Icon@2x.png in Resources */,
 				38C2062E1365E091005C787C /* Default@2x.png in Resources */,
 				38C206301365E096005C787C /* Default.png in Resources */,
+				38C1A5E01365EB40003851F5 /* License.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +311,7 @@
 				38C2061B1365DBEA005C787C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
