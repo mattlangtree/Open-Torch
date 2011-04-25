@@ -16,6 +16,11 @@
 		38C206101365DBEA005C787C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38C2060E1365DBEA005C787C /* MainWindow.xib */; };
 		38C206131365DBEA005C787C /* Open_TorchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C206121365DBEA005C787C /* Open_TorchViewController.m */; };
 		38C206161365DBEA005C787C /* Open_TorchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38C206141365DBEA005C787C /* Open_TorchViewController.xib */; };
+		38C2062A1365E077005C787C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 38C206291365E077005C787C /* Icon.png */; };
+		38C2062C1365E07D005C787C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38C2062B1365E07D005C787C /* Icon@2x.png */; };
+		38C2062E1365E091005C787C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38C2062D1365E091005C787C /* Default@2x.png */; };
+		38C206301365E096005C787C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 38C2062F1365E096005C787C /* Default.png */; };
+		38C206341365E1BA005C787C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C206331365E1BA005C787C /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +28,22 @@
 		38C205FC1365DBEA005C787C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		38C205FE1365DBEA005C787C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		38C206001365DBEA005C787C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		38C206041365DBEA005C787C /* Open Torch-Info.plist */ = {isa = PBXFileReference; path = "Open Torch-Info.plist"; sourceTree = "<group>"; };
+		38C206041365DBEA005C787C /* Open Torch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Open Torch-Info.plist"; sourceTree = "<group>"; };
 		38C206061365DBEA005C787C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		38C206081365DBEA005C787C /* Open Torch-Prefix.pch */ = {isa = PBXFileReference; path = "Open Torch-Prefix.pch"; sourceTree = "<group>"; };
+		38C206081365DBEA005C787C /* Open Torch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Open Torch-Prefix.pch"; sourceTree = "<group>"; };
 		38C206091365DBEA005C787C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		38C2060B1365DBEA005C787C /* Open_TorchAppDelegate.h */ = {isa = PBXFileReference; path = Open_TorchAppDelegate.h; sourceTree = "<group>"; };
+		38C2060B1365DBEA005C787C /* Open_TorchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Open_TorchAppDelegate.h; sourceTree = "<group>"; };
 		38C2060C1365DBEA005C787C /* Open_TorchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Open_TorchAppDelegate.m; sourceTree = "<group>"; };
 		38C2060F1365DBEA005C787C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		38C206111365DBEA005C787C /* Open_TorchViewController.h */ = {isa = PBXFileReference; path = Open_TorchViewController.h; sourceTree = "<group>"; };
+		38C206111365DBEA005C787C /* Open_TorchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Open_TorchViewController.h; sourceTree = "<group>"; };
 		38C206121365DBEA005C787C /* Open_TorchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Open_TorchViewController.m; sourceTree = "<group>"; };
 		38C206151365DBEA005C787C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Open_TorchViewController.xib; sourceTree = "<group>"; };
+		38C206291365E077005C787C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		38C2062B1365E07D005C787C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		38C2062D1365E091005C787C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		38C2062F1365E096005C787C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		38C206311365E1B0005C787C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		38C206331365E1BA005C787C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C206341365E1BA005C787C /* AVFoundation.framework in Frameworks */,
 				38C205FD1365DBEA005C787C /* UIKit.framework in Frameworks */,
 				38C205FF1365DBEA005C787C /* Foundation.framework in Frameworks */,
 				38C206011365DBEA005C787C /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +64,8 @@
 		38C205ED1365DBEA005C787C = {
 			isa = PBXGroup;
 			children = (
+				38C206331365E1BA005C787C /* AVFoundation.framework */,
+				38C206311365E1B0005C787C /* AVFoundation.framework */,
 				38C206021365DBEA005C787C /* Open Torch */,
 				38C205FB1365DBEA005C787C /* Frameworks */,
 				38C205F91365DBEA005C787C /* Products */,
@@ -79,6 +93,7 @@
 		38C206021365DBEA005C787C /* Open Torch */ = {
 			isa = PBXGroup;
 			children = (
+				38C2061C1365DFC7005C787C /* Artwork */,
 				38C2060B1365DBEA005C787C /* Open_TorchAppDelegate.h */,
 				38C2060C1365DBEA005C787C /* Open_TorchAppDelegate.m */,
 				38C2060E1365DBEA005C787C /* MainWindow.xib */,
@@ -99,6 +114,17 @@
 				38C206091365DBEA005C787C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38C2061C1365DFC7005C787C /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				38C2062F1365E096005C787C /* Default.png */,
+				38C2062D1365E091005C787C /* Default@2x.png */,
+				38C2062B1365E07D005C787C /* Icon@2x.png */,
+				38C206291365E077005C787C /* Icon.png */,
+			);
+			name = Artwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +180,10 @@
 				38C206071365DBEA005C787C /* InfoPlist.strings in Resources */,
 				38C206101365DBEA005C787C /* MainWindow.xib in Resources */,
 				38C206161365DBEA005C787C /* Open_TorchViewController.xib in Resources */,
+				38C2062A1365E077005C787C /* Icon.png in Resources */,
+				38C2062C1365E07D005C787C /* Icon@2x.png in Resources */,
+				38C2062E1365E091005C787C /* Default@2x.png in Resources */,
+				38C206301365E096005C787C /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

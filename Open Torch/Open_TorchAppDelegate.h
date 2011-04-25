@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @class Open_TorchViewController;
 
 @interface Open_TorchAppDelegate : NSObject <UIApplicationDelegate> {
-
+  AVCaptureSession *captureSession;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
