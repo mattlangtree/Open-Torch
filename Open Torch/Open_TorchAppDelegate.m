@@ -39,9 +39,31 @@
   // hide status bar
   [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
   
-  // setup and turn on torch
+  // show window
+  self.window.rootViewController = self.viewController;
+  [self.window makeKeyAndVisible];
+  return YES;
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+  [self turnTorchOn];
+}
+
+- (void)applicationWillResignActive:(UIApplication *)application
+{
+  [self turnTorchOff];
+}
+
+- (void)turnTorchOn
+{
+  // check if we have a camera and torch
   AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
-  if (device && [device hasTorch] && [device hasFlash]){
+  if (!device || ![device hasTorch] || ![device hasFlash])
+    return;
+  
+  // setup a capcha session
+  if (!captureSession) {
     AVCaptureDeviceInput *flashInput = [AVCaptureDeviceInput deviceInputWithDevice:device error: nil];
     AVCaptureVideoDataOutput *output = [[[AVCaptureVideoDataOutput alloc] init] autorelease];
     
@@ -58,24 +80,23 @@
     [device unlockForConfiguration];
     
     [captureSession commitConfiguration];
-    [captureSession startRunning];
   }
   
-  self.window.rootViewController = self.viewController;
-  [self.window makeKeyAndVisible];
-  return YES;
+  // turn it on
+  [captureSession startRunning];
+  
+  [device lockForConfiguration:nil];
+  [device setTorchMode:AVCaptureTorchModeOn];
+  [device setFlashMode:AVCaptureFlashModeOn];
+  [device unlockForConfiguration];
 }
 
-- (void)applicationDidBecomeActive:(UIApplication *)application
+- (void)turnTorchOff
 {
-  // torch will have been truned off. turn back on
-  AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
-  if (device && [device hasTorch] && [device hasFlash]){
-    [device lockForConfiguration:nil];
-    [device setTorchMode:AVCaptureTorchModeOn];
-    [device setFlashMode:AVCaptureFlashModeOn];
-    [device unlockForConfiguration];
-  }
+  if (!captureSession)
+    return;
+  
+  [captureSession stopRunning];
 }
 
 - (void)dealloc

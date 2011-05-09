@@ -32,8 +32,10 @@
   AVCaptureSession *captureSession;
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
+- (void)turnTorchOn;
+- (void)turnTorchOff;
 
+@property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet Open_TorchViewController *viewController;
 
 @end
