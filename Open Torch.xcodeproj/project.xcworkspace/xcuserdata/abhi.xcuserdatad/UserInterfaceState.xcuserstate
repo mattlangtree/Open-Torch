@@ -1069,7 +1069,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>326658941.65633303</real>
+		<real>326679938.18485302</real>
 		<string>{0, 3259}</string>
 		<string>{1628, 0}</string>
 		<dict>
@@ -4443,7 +4443,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>584</integer>
+					<integer>583</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -4451,7 +4451,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>585</integer>
+					<integer>584</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5447,15 +5447,15 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>565</integer>
+					<integer>564</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>572</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>573</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>574</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5855,7 +5855,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>563</integer>
+					<integer>562</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5925,11 +5925,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>555</integer>
+					<integer>554</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>559</integer>
+					<integer>558</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5937,11 +5937,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>560</integer>
+					<integer>559</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>561</integer>
+					<integer>560</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6048,22 +6048,13 @@
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>554</integer>
+				<integer>66</integer>
 			</dict>
 			<key>timestamp</key>
 			<dict>
 				<key>CF$UID</key>
 				<integer>0</integer>
 			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>26</integer>
-			</dict>
-			<key>NS.string</key>
-			<string>file://localhost/Users/abhi/projects/Open%20Torch/Open%20Torch/Open_TorchAppDelegate.m</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -6094,11 +6085,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>556</integer>
+					<integer>555</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>557</integer>
+					<integer>556</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -6106,11 +6097,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>558</integer>
+					<integer>557</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326658941.65736598</real>
+		<real>326679938.18569398</real>
 		<string>{0, 3259}</string>
 		<string>{1628, 0}</string>
 		<string>-application:didFinishLaunchingWithOptions:</string>
@@ -6129,7 +6120,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>562</integer>
+				<integer>561</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/abhi/projects/Open%20Torch/Open%20Torch/Open_TorchAppDelegate.m</string>
@@ -6143,7 +6134,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>564</integer>
+					<integer>563</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6165,7 +6156,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>566</integer>
+					<integer>565</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6179,11 +6170,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>567</integer>
+					<integer>566</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>570</integer>
+					<integer>569</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6208,11 +6199,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>568</integer>
+					<integer>567</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>569</integer>
+					<integer>568</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6239,11 +6230,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>571</integer>
+					<integer>570</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>572</integer>
+					<integer>571</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6274,12 +6265,12 @@
 			<key>primaryEditorContextNode</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>575</integer>
+				<integer>574</integer>
 			</dict>
 			<key>rootLayoutTreeNode</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>582</integer>
+				<integer>581</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -6298,14 +6289,14 @@
 			<key>documentArchivableRepresentation</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>576</integer>
+				<integer>575</integer>
 			</dict>
 			<key>orientation</key>
 			<integer>0</integer>
 			<key>parent</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>582</integer>
+				<integer>581</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -6327,7 +6318,7 @@
 			<key>IdentifierPath</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>577</integer>
+				<integer>576</integer>
 			</dict>
 			<key>IndexOfDocumentIdentifier</key>
 			<dict>
@@ -6345,15 +6336,15 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
+					<integer>577</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>578</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>579</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>580</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6390,7 +6381,7 @@
 			<key>Identifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>581</integer>
+				<integer>580</integer>
 			</dict>
 		</dict>
 		<string>Open Torch</string>
@@ -6403,7 +6394,7 @@
 			<key>children</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>583</integer>
+				<integer>582</integer>
 			</dict>
 			<key>contentType</key>
 			<integer>0</integer>
@@ -6430,7 +6421,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>575</integer>
+					<integer>574</integer>
 				</dict>
 			</array>
 		</dict>
